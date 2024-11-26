@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blue Neon
+  m_Name: blue-purple neon
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -79,6 +79,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.4056604, g: 0, b: 0.03296656, a: 1}
-    - _EmissionColor: {r: 0, g: 0.3832547, b: 0.9433962, a: 1}
+    - _Color: {r: 0.40686113, g: 0, b: 0.8679245, a: 1}
+    - _EmissionColor: {r: 0.3661367, g: 0.07075471, b: 1, a: 1}
   m_BuildTextureStacks: []
