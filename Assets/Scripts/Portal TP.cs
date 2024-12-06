@@ -26,7 +26,7 @@ public class PortalTP : MonoBehaviour
             if (Physics.Raycast(ray, out hit, rayLength, groundLayer))
             {
                 // Eğer bir yüzeye çarptıysa, oyuncuyu teleport et
-                Debug.Log("Altında yol var, oyuncu teleport ediliyor.");
+                
                 Vector3 playerPos = new Vector3(
                     orangePortalTransform.position.x - 3,
                     player.transform.position.y,
@@ -37,7 +37,7 @@ public class PortalTP : MonoBehaviour
             else
             {
                 // Eğer altında yol yoksa, oyuncuyu teleport etme
-                Debug.Log("Altında yol yok, oyuncu teleport edilmedi!");
+                
             }
         }
     }

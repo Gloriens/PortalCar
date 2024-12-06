@@ -1,10 +1,11 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
-    public TextMeshProUGUI scoreText;
+    public Text scoreText;
     private float score;
     private float gameTime;
     private int gold;
